@@ -32,8 +32,8 @@ Extension 1 does absolutely nothing, but it also requests the
 `declarativeNetRequestWithHostAccess` permission in its manifest.
 
 As you can see, extension 1 somehow causes extension 2 to stop
-working, but it does cause any problems for extension 3, even though
-extensions 2 and 3 are identical.
+working, but it doesn't cause any problems for extension 3, even
+though extensions 2 and 3 are identical.
 
 The reason for this is that apparently if multiple extensions try to
 use the `declarativeNetRequestWithHostAccess` permission, then after
