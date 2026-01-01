@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "condition": {
+      "urlFilter": "||example.com/*",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "host": "www.mozilla.org"
+        }
+      }
+    }
+  },
+  {
+    "id": 2,
+    "condition": {
+      "urlFilter": "||www.example.com/*",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "host": "www.mozilla.org"
+        }
+      }
+    }
+  }
+]

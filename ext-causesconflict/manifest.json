@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "[Bug 1995192] Causes Conflict",
+  "version": "1.0.0",
+  "description": "Having this addon installed causes issues",
+  "permissions": ["declarativeNetRequestWithHostAccess"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bug1995192-addon002@intuitiveexplanations.com"
+    }
+  }
+}
