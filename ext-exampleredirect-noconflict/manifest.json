@@ -1,12 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "[Bug 1995192] Example Redirect Without Conflict",
+  "name": "[Bug 1995192] Example Redirect Working",
   "version": "1.0.0",
   "description": "Redirect example.com - will still work when conflicting addon installed",
   "permissions": ["declarativeNetRequestWithHostAccess"],
   "browser_specific_settings": {
     "gecko": {
-      "id": "bug1995192-addon001@intuitiveexplanations.com"
+      "id": "bug1995192-addon001@intuitiveexplanations.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "host_permissions": ["*://example.com/*", "*://www.example.com/*"],

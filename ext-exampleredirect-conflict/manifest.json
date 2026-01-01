@@ -6,7 +6,10 @@
   "permissions": ["declarativeNetRequestWithHostAccess"],
   "browser_specific_settings": {
     "gecko": {
-      "id": "bug1995192-addon003@intuitiveexplanations.com"
+      "id": "bug1995192-addon003@intuitiveexplanations.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "host_permissions": ["*://example.com/*", "*://www.example.com/*"],
